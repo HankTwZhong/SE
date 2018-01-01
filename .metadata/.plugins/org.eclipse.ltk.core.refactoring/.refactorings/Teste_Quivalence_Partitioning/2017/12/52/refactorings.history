@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;TestCae_QP&apos; to &apos;Grading&apos;&#x0D;&#x0A;- Original project: &apos;Teste_Quivalence_Partitioning&apos;&#x0D;&#x0A;- Original element: &apos;TestCae_QP&apos;&#x0D;&#x0A;- Renamed element: &apos;Grading&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TestCae_QP&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{TestCae_QP.java[TestCae_QP" matchStrategy="1" name="Grading" qualified="false" references="true" similarDeclarations="false" stamp="1514608827443" textual="false" version="1.0"/>
+</session>

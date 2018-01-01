@@ -1,0 +1,12 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+public class TestCae_QP {
+
+	@Test
+	public void test() {
+		Grading gr = new Grading(85);
+		
+	}
+
+}

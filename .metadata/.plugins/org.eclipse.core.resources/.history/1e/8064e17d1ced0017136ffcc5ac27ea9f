@@ -1,0 +1,15 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import junit.framework.Assert;
+public class TestCae_QP {
+
+	@Test
+	public void test() {
+		Grading gr = new Grading();
+		String result = gr.Grade(59) ;
+		assertEquals("B",result );
+	}
+
+}

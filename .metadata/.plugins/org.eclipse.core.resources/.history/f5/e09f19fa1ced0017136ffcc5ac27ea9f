@@ -1,0 +1,23 @@
+
+public class Grading  {
+	public Grading test;
+	public void setUp(){
+	
+	}
+	public void tarDown(){
+		
+	}
+	
+	public String Grade(int Source){
+		if(Source >0 || Source <100){
+			return	"A";
+		}
+		return "X";
+	}
+	public static void main(String[] args) {
+		Grading test = new Grading();
+		String result = test.Grade(100);
+		System.out.print(result);
+		
+	}
+}

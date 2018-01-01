@@ -1,0 +1,22 @@
+import junit.framework.*;public class Grading extends TestCase {
+	public Grading test;
+	public void setUp(){
+		test = new Grading();
+	}
+	public void tarDown(){
+		test = null;
+	}
+	
+	public String Grade(int Source){
+		if(Source >0 || Source <100){
+			return	"A";
+		}
+		return "X";
+	}
+	public static void main(String[] args) {
+//		Grading test = new Grading();
+		String result = test.Grade(100);
+		System.out.print(result);
+		
+	}
+}

@@ -1,0 +1,31 @@
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import junit.framework.TestCase;
+
+public class TestCae_QP extends TestCase {
+	
+	@Before
+	 public void setUp() throws Exception {
+		gr = new Grading();
+	 }
+	 
+	 /**
+	  * Tear down.
+	  *
+	  * @throws Exception
+	  *             the exception
+	  */
+	 @After
+	 public void tearDown() throws Exception {
+		 gr = null;
+	 }
+	
+	@Test
+	public void test() {
+//		Grading gr = new Grading();
+		String result = gr.Grade(59) ;
+		assertEquals("A",result );
+	}
+
+}

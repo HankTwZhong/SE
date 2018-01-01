@@ -1,0 +1,20 @@
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class TestCae_QP extends TestCase {
+	@Test
+	public void test() {
+		
+		public Grading gr ;
+		public void setUp(){
+			gr = new Grading();
+		}
+		public void tarDown(){
+			gr = null;
+		}
+//		Grading gr = new Grading();
+		String result = gr.Grade(59) ;
+		assertEquals("A",result );
+	}
+
+}

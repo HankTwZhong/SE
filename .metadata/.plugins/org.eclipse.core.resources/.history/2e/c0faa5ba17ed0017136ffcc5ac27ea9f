@@ -1,0 +1,15 @@
+
+public class TestCae_QP  {
+	public String Grade(int Source){
+		if(Source >0 || Source <100){
+			return	"A";
+		}
+		return "X";
+	}
+	public static void main(String[] args) {
+		TestCae_QP test = new TestCae_QP();
+		String result= test.Grade(100);
+		System.out.print(" "+source);
+		
+	}
+}
